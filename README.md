@@ -18,35 +18,6 @@ https://github.com/imagentleman/pelllizco/blob/master/dist/index.html
 
     <!doctype html>
 
-    <title>Pellizco - Eventos de Gestos de Zoom con 2 dedos</title>
-
-    <style>
-      html {
-        touch-action: none;
-      }
-
-      html,
-      body {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        justify-content: center;
-        margin: 0;
-        width: 100vw;
-      }
-
-      .pinchin {
-        background-color: pink;
-      }
-
-      .pinchout {
-        background-color: lightblue;
-      }
-    </style>
-
-    <h1>Pellízcame!</h1>
-
     <p></p>
 
     <script src=pellizco.umd.js></script>

@@ -27,7 +27,7 @@
   }
 </style>
 
-<h1>Pellízcame!</h1>
+<h1>¡Pellízcame!</h1>
 
 <p></p>
 
@@ -41,13 +41,13 @@
   var message = document.querySelector("p");
 
   document.body.addEventListener("pinchin", function() {
-    message.textContent = "pinchin (hicimos zoom!)";
+    message.textContent = "Evento pinchin (¡hicimos zoom!)";
     message.classList = "";
     message.classList.add("pinchin");
   });
 
   document.body.addEventListener("pinchout", function() {
-    message.textContent = "Evento pinchout (deshicimos el zoom!)";
+    message.textContent = "Evento pinchout (¡deshicimos el zoom!)";
     message.classList = "";
     message.classList.add("pinchout");
   });

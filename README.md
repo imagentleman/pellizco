@@ -1,6 +1,9 @@
 # pelllizco
 Librería que da soporte a gestos de zoom mediante pellizcos
 
+## Demo
+http://imagentleman.github.io/pellizco
+
 ## Tamaño
 Pesa 838 bytes minificado y 409 bytes comprimido con gzip.
 

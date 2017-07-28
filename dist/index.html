@@ -1,0 +1,54 @@
+<!doctype html>
+
+<title>Pellizco - Eventos de Gestos de Zoom con 2 dedos</title>
+
+<style>
+  html {
+    touch-action: none;
+  }
+
+  html,
+  body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .pinchin {
+    background-color: pink;
+  }
+
+  .pinchout {
+    background-color: lightblue;
+  }
+</style>
+
+<h1>Pellízcame!</h1>
+
+<p></p>
+
+<script src=pellizco.umd.js></script>
+
+<script>
+  // Inicializa la librería, la cual empezará a escuchar los eventos:
+  // "pinchin" o "pinchout"
+  pellizco();
+
+  var message = document.querySelector("p");
+
+  document.body.addEventListener("pinchin", function() {
+    message.textContent = "pinchin (hicimos zoom!)";
+    message.classList = "";
+    message.classList.add("pinchin");
+  });
+
+  document.body.addEventListener("pinchout", function() {
+    message.textContent = "Evento pinchout (deshicimos el zoom!)";
+    message.classList = "";
+    message.classList.add("pinchout");
+  });
+</script>

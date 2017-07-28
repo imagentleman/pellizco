@@ -1,4 +1,4 @@
-# pelllizco
+# pellizco
 Librería que da soporte a gestos de zoom mediante pellizcos
 
 ## Demo
@@ -10,20 +10,20 @@ Pesa 838 bytes minificado y 409 bytes comprimido con gzip.
 ## Instalación
 
 ### Browser
-* Descarga la versión UMD de la librería (https://github.com/imagentleman/pelllizco/blob/master/dist/pellizco.umd.min.js).
-* Agrega el script como se muestra en el ejemplo que incluye la librería (https://github.com/imagentleman/pelllizco/blob/master/dist/index.html)
+* Descarga la versión UMD de la librería (https://github.com/imagentleman/pellizco/blob/master/dist/pellizco.umd.min.js).
+* Agrega el script como se muestra en el ejemplo que incluye la librería (https://github.com/imagentleman/pellizco/blob/master/dist/index.html)
 
 ### Node
-La carpeta ```dist``` incluye versiones de CommonJS y ES2015 para ser utilizadas desde Node (https://github.com/imagentleman/pelllizco/tree/master/dist).
+La carpeta ```dist``` incluye versiones de CommonJS y ES2015 para ser utilizadas desde Node (https://github.com/imagentleman/pellizco/tree/master/dist).
 
 ## Ejemplo de Uso 
-https://github.com/imagentleman/pelllizco/blob/master/dist/index.html
+https://github.com/imagentleman/pellizco/blob/master/dist/index.html
 
     <!doctype html>
 
     <p></p>
 
-    <script src=pellizco.umd.js></script>
+    <script src=pellizco.umd.min.js></script>
 
     <script>
       // Inicializa la librería, la cual empezará a escuchar los eventos:

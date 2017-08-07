@@ -16,9 +16,7 @@
   },
   "scripts": {
     "build": "rollup --config rollup.config.prod.js",
-    "dev": "rollup -c -w",
-    "test": "node test/test.js",
-    "pretest": "npm run build"
+    "dev": "rollup -c -w"
   },
   "files": [
     "dist"
